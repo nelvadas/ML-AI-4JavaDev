@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PMML xmlns="http://www.dmg.org/PMML-4_4" xmlns:data="http://jpmml.org/jpmml-model/InlineTable" version="4.4">
+	<Header>
+		<Application name="SkLearn2PMML package" version="0.99.0"/>
+		<Timestamp>2023-10-11T08:24:27Z</Timestamp>
+	</Header>
+	<DataDictionary>
+		<DataField name="y" optype="continuous" dataType="double"/>
+		<DataField name="Age" optype="continuous" dataType="double"/>
+		<DataField name="Gender" optype="continuous" dataType="double"/>
+		<DataField name="BodyMassIndex" optype="continuous" dataType="double"/>
+		<DataField name="Childrens" optype="continuous" dataType="double"/>
+		<DataField name="Smoke" optype="continuous" dataType="double"/>
+		<DataField name="Department" optype="continuous" dataType="double"/>
+	</DataDictionary>
+	<RegressionModel functionName="regression" algorithmName="sklearn.linear_model._base.LinearRegression">
+		<MiningSchema>
+			<MiningField name="y" usageType="target"/>
+			<MiningField name="Age"/>
+			<MiningField name="Gender"/>
+			<MiningField name="BodyMassIndex"/>
+			<MiningField name="Childrens"/>
+			<MiningField name="Smoke"/>
+			<MiningField name="Department"/>
+		</MiningSchema>
+		<RegressionTable intercept="-7725.976284540289">
+			<NumericPredictor name="Age" coefficient="262.61318486355077"/>
+			<NumericPredictor name="Gender" coefficient="-2748.6393246713988"/>
+			<NumericPredictor name="BodyMassIndex" coefficient="236.65347225521532"/>
+			<NumericPredictor name="Childrens" coefficient="1542.0025154988434"/>
+			<NumericPredictor name="Smoke" coefficient="19214.748823762144"/>
+			<NumericPredictor name="Department" coefficient="-202.9629024687756"/>
+		</RegressionTable>
+	</RegressionModel>
+</PMML>

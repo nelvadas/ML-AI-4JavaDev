@@ -1,0 +1,99 @@
+Index,City,Country,Apartment_Surface_Area_SQM,Building_Date,Room_Price_EUR
+1,New York,USA,80,2000,274480
+2,New York,USA,100,2010,343100
+3,New York,USA,20,1995,114980
+4,New York,USA,35,2008,160045
+5,San Francisco,USA,75,2005,257325
+6,San Francisco,USA,90,2015,308790
+7,San Francisco,USA,18,2000,103740
+8,San Francisco,USA,30,2012,128662
+9,Los_Angeles,USA,70,2003,240090
+10,Los_Angeles,USA,85,2012,291555
+11,Los_Angeles,USA,22,2007,126740
+12,Los_Angeles,USA,38,2018,172710
+13,London,UK,60,2008,205860
+14,London,UK,70,2016,240090
+15,London,UK,19,2005,109918
+16,London,UK,33,2013,141597
+17,Paris,France,55,2006,188010
+18,Paris,France,65,2017,228740
+19,Paris,France,23,2004,125826
+20,Paris,France,39,2011,168429
+21,Berlin,Germany,50,2010,171700
+22,Berlin,Germany,75,2019,257325
+23,Berlin,Germany,16,2002,91936
+24,Berlin,Germany,28,2015,128662
+25,Sydney,Australia,90,2014,308790
+26,Sydney,Australia,110,2018,377620
+27,Sydney,Australia,24,2009,131780
+28,Sydney,Australia,37,2017,160045
+29,Tokyo,Japan,95,2011,326105
+30,Tokyo,Japan,105,2020,360825
+31,Tokyo,Japan,21,2007,114980
+32,Tokyo,Japan,32,2019,138585
+33,Baham,Cameroon,65,2007,222245
+34,Baham,Cameroon,70,2013,240090
+35,Baham,Cameroon,18,2002,77928
+36,Baham,Cameroon,33,2018,141597
+37,Kribi,Cameroon,75,2009,257325
+38,Kribi,Cameroon,80,2018,274480
+39,Kribi,Cameroon,20,2005,103740
+40,Kribi,Cameroon,38,2014,172710
+41,Hamburg,Germany,60,2012,205860
+42,Hamburg,Germany,70,2016,240090
+43,Hamburg,Germany,15,1998,85990
+44,Hamburg,Germany,29,2013,133405
+45,Munich,Germany,75,2013,257325
+46,Munich,Germany,80,2019,274480
+47,Munich,Germany,17,2001,97855
+48,Munich,Germany,31,2017,134855
+49,Cologne,Germany,70,2015,240090
+50,Cologne,Germany,85,2021,291555
+51,Cologne,Germany,24,2006,131780
+52,Cologne,Germany,39,2019,168429
+53,Geneva,Switzerland,90,2015,308790
+54,Geneva,Switzerland,100,2019,343100
+55,Geneva,Switzerland,19,2007,103740
+56,Geneva,Switzerland,35,2014,160045
+57,Zurich,Switzerland,80,2014,274480
+58,Zurich,Switzerland,95,2018,326105
+59,Zurich,Switzerland,23,2009,125826
+60,Zurich,Switzerland,37,2016,160045
+61,New York,USA,85,2006,291555
+62,New York,USA,30,2015,128662
+63,New York,USA,110,2019,377620
+64,New York,USA,45,2003,194955
+65,Los Angeles,USA,60,2010,205860
+66,Los Angeles,USA,65,2018,228740
+67,Los Angeles,USA,28,2008,128662
+68,Los Angeles,USA,40,2014,172710
+69,London,UK,70,2013,240090
+70,London,UK,80,2017,274480
+71,London,UK,25,2006,114980
+72,London,UK,35,2012,160045
+73,Paris,France,55,2009,188010
+74,Paris,France,60,2016,205860
+75,Paris,France,21,2002,103740
+76,Paris,France,37,2015,160045
+77,Berlin,Germany,65,2015,222245
+78,Berlin,Germany,72,2020,240090
+79,Berlin,Germany,18,2004,103740
+80,Berlin,Germany,33,2017,141597
+81,Sydney,Australia,85,2010,291555
+82,Sydney,Australia,100,2019,343100
+83,Sydney,Australia,22,2007,126740
+84,Sydney,Australia,38,2018,172710
+85,Tokyo,Japan,105,2012,360825
+86,Tokyo,Japan,115,2017,394505
+87,Tokyo,Japan,30,2009,128662
+88,Tokyo,Japan,45,2014,194955
+89,Baham,Cameroon,70,2014,240090
+90,Baham,Cameroon,75,2019,257325
+91,Baham,Cameroon,18,2002,77928
+92,Baham,Cameroon,33,2018,141597
+93,Kribi,Cameroon,75,2011,257325
+94,Kribi,Cameroon,80,2017,274480
+95,Kribi,Cameroon,20,2004,103740
+96,Kribi,Cameroon,38,2019,172710
+97,Hamburg,Germany,70,2016,240090
+98,Hamburg,Germany,80,2020,274
