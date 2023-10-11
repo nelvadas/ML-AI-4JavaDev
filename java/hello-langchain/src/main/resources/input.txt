@@ -1,4 +1,4 @@
-Guten morgen
+Guten Morgen !
 Today we are doing a session on Generative AI with Java.
 Hello Friends
 My name is Nono

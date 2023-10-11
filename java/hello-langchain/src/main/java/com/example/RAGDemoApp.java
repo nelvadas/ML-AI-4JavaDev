@@ -42,7 +42,6 @@ public class RAGDemoApp
 
         EmbeddingModel model = new AllMiniLmL6V2EmbeddingModel();
 
-
         // make sure you have a chroma db listening on port 8000
         // podman  run -d -p 8000:8000 ghcr.io/chroma-core/chroma:0.4.6
 
@@ -50,7 +49,6 @@ public class RAGDemoApp
                 .baseUrl("http://localhost:8000")
                 .collectionName(randomUUID())
                 .build();
-
 
         Path filePath = Paths.get("src/main/resources/input.txt");
         Document document = FileSystemDocumentLoader.loadDocument(filePath);
@@ -62,18 +60,13 @@ public class RAGDemoApp
             System.out.println(uuid+"=> "+line);
         }
 
-
-
         Embedding queryEmbedding = model.embed("What is my name?").content();
         System.out.println("Query Vector" +queryEmbedding);
-
 
         List<EmbeddingMatch<TextSegment>> relevant = embeddingStore.findRelevant(queryEmbedding, 1);
         EmbeddingMatch<TextSegment> embeddingMatch = relevant.get(0);
 
         System.out.println("Match Score" + embeddingMatch.score());
-
-
         System.out.println("Vector similar with the query /n"+ embeddingMatch.embeddingId());
 
 
