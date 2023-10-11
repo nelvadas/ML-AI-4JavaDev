@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>hello-langchain</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+        <lanchain.version>0.23.0</lanchain.version>
+
+  </properties>
+  <name>hello-storm</name>
+  <url>http://maven.apache.org</url>
+
+
+
+
+
+
+  <dependencies>
+  
+    <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j</artifactId>
+            <version>${lanchain.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-open-ai</artifactId>
+            <version>${lanchain.version}</version>
+        </dependency>
+
+     <!-- https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2 -->
+      <dependency>
+          <groupId>dev.langchain4j</groupId>
+          <artifactId>langchain4j-embeddings-all-minilm-l6-v2</artifactId>
+          <version>${lanchain.version}</version>
+      </dependency>
+
+
+      <dependency>
+          <groupId>dev.langchain4j</groupId>
+          <artifactId>langchain4j-hugging-face</artifactId>
+          <version>${lanchain.version}</version>
+      </dependency>
+
+
+      <dependency>
+          <groupId>dev.langchain4j</groupId>
+          <artifactId>langchain4j-chroma</artifactId>
+          <version>${lanchain.version}</version>
+      </dependency>
+
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+  </dependencies>
+
+<build>
+  <plugins>
+  <plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <configuration>
+      <descriptorRefs>
+        <descriptorRef>jar-with-dependencies</descriptorRef>
+      </descriptorRefs>
+      <archive>
+        <manifest>
+          <mainClass>com.example.RAGDemoApp</mainClass>
+        </manifest>
+      </archive>
+    </configuration>
+    <executions>
+                <execution>
+                    <id>make-assembly</id>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>single</goal>
+                    </goals>
+                </execution>
+            </executions>
+  </plugin>
+  </plugins>
+</build>
+</project>
